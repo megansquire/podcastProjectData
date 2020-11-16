@@ -6,11 +6,11 @@ Please cite this work as follows:
 Squire, Megan. (2020). "Mapping the Radical Right Audio Propaganda Network". 
 ```
 Included in this collection are the following files:
-* shows.csv
-* episodeMetadata.csv
-* episodeSegments.csv
-* castMembers.csv
-* episodeCast.csv
+* data/shows.csv
+* data/episodeMetadata.csv
+* data/episodeSegments.csv
+* data/castMembers.csv
+* data/episodeCast.csv
 
 ## shows.csv
 This is the list of shows included in this dataset. 
@@ -53,8 +53,8 @@ This is a list of all cast members.
 * castID - unique number for each cast member (primary key)
 * castName - most common name used for this cast member or sometimes real name if known
 * primaryShowCode - maps to shows.showCode
-* aka - other name(s) this cast member is "also known as"
-* notes - my notes about why this person might be notable, if any 
+* aka - other name(s) this cast member may go by
+* notes - why this person might be notable, if any 
 * gender - gender portrayed by this person in their appearances
 
 ## episodeCast.csv
