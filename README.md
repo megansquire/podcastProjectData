@@ -3,7 +3,7 @@
 ## Citation
 Please cite this work as follows:
 ```
-Squire, Megan. (2020). "Mapping the Radical Right Podcast and Streaming Network". 
+Squire, Megan. (2020). "Mapping the Radical Right Audio Propaganda Network". 
 ```
 Included in this collection are the following files:
 * shows.csv
