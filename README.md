@@ -52,10 +52,9 @@ This is a list of all cast members.
 #### Columns
 * castID - unique number for each cast member (primary key)
 * castName - most common name used for this cast member or sometimes real name if known
-* primaryShowCode - maps to shows.showCode
+* primaryShowCode - show they are most associated with (based on number of appearances), maps to shows.showCode
 * aka - other name(s) this cast member may go by
 * notes - why this person might be notable, if any 
-* gender - gender portrayed by this person in their appearances
 
 ## episodeCast.csv
 This is a list of the Cast members appearing on each episode.
@@ -63,5 +62,5 @@ This is a list of the Cast members appearing on each episode.
 #### Columns
 * episodeSeqNum - maps to episodeMetadata.episodeSeqNum (primary key)
 * castID - maps to cast.castID (primary key)
-* role - describes the role of this cast member on this episode (host, guest, etc) (nullable)
-* notes - my notes (nullable)
+* role - describes the role of this cast member on this episode (host, guest, etc)
+* notes - my notes
