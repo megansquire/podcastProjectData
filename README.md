@@ -9,7 +9,7 @@ Included in this collection are the following files:
 * data/shows.csv
 * data/episodeMetadata.csv
 * data/episodeSegments.csv
-* data/castMembers.csv
+* data/cast.csv
 * data/episodeCast.csv
 
 ## shows.csv
