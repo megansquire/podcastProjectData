@@ -3,7 +3,7 @@
 ## Citation
 Please cite this work as follows:
 ```
-Squire, Megan. (2020). "Mapping the Radical Right Audio Propaganda Network". 
+Megan Squire and Hannah Gais (2021). [Inside the Far-right Podcast Ecosystem](https://www.splcenter.org/hatewatch/2021/09/29/inside-far-right-podcast-ecosystem-part-1-building-network-hate). Southern Poverty Law Center Techwatch.
 ```
 Included in this collection are the following files:
 * data/shows.csv
