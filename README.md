@@ -16,9 +16,9 @@ Included in this collection are the following files:
 This is the list of shows included in this dataset. 
 
 #### Columns
-* showCode
+* showCode - short name for this show (tds, nf, tpc, etc)
 * showName
-* network
+* network - trs, id, other
 
 ## episodeMetadata.csv
 This is a list of facts about each episode.
@@ -27,18 +27,18 @@ This is a list of facts about each episode.
 * episodeSeqNum - unique number I gave to each episode (primary key)
 * podcastSeries - the show code for this episode (maps to shows.showCode)
 * episodeNum - this is the number given by the hosts for this episode (nullable)
-* airDate - approximate airdate for post date (nullable)
-* url - where I found this show (nullable)
+* airDate - approximate airdate or post date (nullable)
+* url - where I found this show or the metadata about this show originally (nullable)
 * episodeTitle - title as given by the hosts (nullable)
-* episodeSummary - as given by the show hosts
-* audioUrl - URL where I found the audio (nullable)
+* episodeSummary - summary of the show as given by the show hosts
+* audioUrl - URL where I found the audio recording (nullable)
 * frameRateHz - frame rate of this recording (nullable)
 * numChannels - number of channels in the audio file (nullable)
 * durationSecs - how long is the audio file in seconds (nullable)
 * notes - my notes on this episode (nullable)
 
 ## episodeSegments.csv
-This is a list of all the segments present in each episode that lists segments.
+This is a list of all the segments present in each episode that lists segments. A segment is a recurring or one-time portion of the show. Often, timestamps are given for the segments to assist listeners with finding the portion of the show they are interesting in listening to.
 
 #### Columns
 * episodeSeqNum - maps to episodeMetadata.episodeSeqNum (primary key)
@@ -51,13 +51,13 @@ This is a list of all cast members.
 
 #### Columns
 * castID - unique number for each cast member (primary key)
-* castName - most common name used for this cast member or sometimes real name if known
+* castName - most common name used for this cast member or sometimes real name if documented
 * primaryShowCode - show they are most associated with (based on number of appearances), maps to shows.showCode
 * aka - other name(s) this cast member may go by
 * notes - why this person might be notable, if any 
 
 ## episodeCast.csv
-This is a list of the Cast members appearing on each episode.
+This is a list of the cast members appearing on each episode.
 
 #### Columns
 * episodeSeqNum - maps to episodeMetadata.episodeSeqNum (primary key)
